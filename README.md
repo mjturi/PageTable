@@ -71,5 +71,5 @@ This project simulates a pagetable for virtual memory storage, using a 32 bit ad
 1. Parse arguments and verify correctness
 2. Initialize the page table given user input levels
 3. Read addresses and insert into the table if the entry has not already been created
-  - if the entry was created, increment a hit counter
-  - else, create a new entry and increment the frame number
+    * if the entry was created, increment a hit counter
+    * else, create a new entry and increment the frame number
